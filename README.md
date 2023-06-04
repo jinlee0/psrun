@@ -18,7 +18,11 @@ cargo build
 <br>
 
 ## Usage Example
-1. 문제 풀이 중인 디렉토리에 input 파일을 생성하고 테스트 케이스들을 빈 줄로 구분하여 작성한다.
+1. Make `input` file in rust product
+```
+touch input
+```
+2. Write test cases separated by blank lines.
 ```
 4
 3
@@ -39,7 +43,7 @@ cargo build
 6
 
 ```
-2. 해당 디렉토리에서 psrun을 실행한다.
+2. Run psrun
 ```bash
 psrun
 ```
